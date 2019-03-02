@@ -8,7 +8,7 @@ export default class Layout extends Component {
         return (
             <ImageBackground source={require("../../assets/img/001.jpg")} style={{ flex: 1, width: '100%', height: '100%', }} >
             <StatusBar translucent={true} backgroundColor={'transparent'} ></StatusBar>
-                <ScrollView style={{ flex: 1, flexDirection: 'column', paddingLeft: 60, }} >
+                <ScrollView style={{ flex: 1, flexDirection: 'column', paddingLeft: '18%', }} >
                     <View style={{ width: null, height: 100 }}></View>
                     <Text style={{ fontSize: 40, fontWeight: '400', color: '#FFF', }}>
                         {`YOUR\nART\nMUSEUM`}
@@ -27,7 +27,7 @@ export default class Layout extends Component {
                         <Button
                             title="Log in"
                             color='#ef5349'
-                        // onPress={()=> this.props.navigate()}
+                         onPress={()=> this.props.navigation.navigate('Home')}
                         />
                     </View>
                     <View style={{ alignItems: 'flex-start', marginTop: 2, width: 230 }}>
