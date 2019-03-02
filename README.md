@@ -3,11 +3,18 @@
 Proyecto basado en el Sample File de Figma (https://www.figma.com) en Rect Native.
 
 ## Getting Started
-
+Instalación
+            npm i
+            react-native run-android
+            
 Este proyecto se realizo por diversion y para probar el Framework React Native. 
 Algunos recursos para iniciar tu primer proyecto/documentación en React: 
 
 - [Lab: Write your first React Native app](https://facebook.github.io/react-native/docs/getting-started)
+
+Proyecto similar en Flutter
+Pasate a ver el mismo proyecto realizado en Flutter!
+- [Flutter Figma](https://github.com/CrisRonda/flutterFigma)
 
 # Capturas de la aplicación
 Login Page
@@ -23,6 +30,3 @@ Exhibition Page
 
 ![alt text](screenshots/004.png)
 
-#Proyecto similar en Flutter
-Pasate a ver el mismo proyecto realizado en Flutter!
-- [Flutter Figma](https://github.com/CrisRonda/flutterFigma)
